@@ -9,7 +9,7 @@ from pyppeteer import launch
 user = input('What is your username?')
 password = input('And your password?')
 
-
+# .
 async def main():
     # Gets current date's ISOWEEK so I can access only the associated week's class. So it doesn't have to access
     # all of them runtime. It also adjusts them to account for first and second semester. The math looks weird but works
